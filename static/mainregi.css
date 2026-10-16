@@ -1,0 +1,198 @@
+body {
+    font-family: "Source Sans 3", sans-serif;
+    /*font-family: "Roboto Condensed", sans-serif;*/
+
+    margin: 0;
+    color: #0881A3;
+    background-color: #F5FFFA;
+}
+
+header {
+    /*color: rgb(239, 62, 54);*/
+    color: orangered;
+    /*padding: 0 2rem;*/
+    /*border-bottom: 1px solid;*/
+}
+
+header img {
+    display: block;
+    border: 1px solid black;
+    border-radius: 50%;
+    max-width: 20%;
+    height: auto;
+    margin: 1rem auto 0 auto;
+    box-shadow: 5px 5px lightblue;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 3px black;
+    padding: 3rem 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* =================================== FŐMENÜ ================================== */
+
+.menu {
+    /*background-color: cornflowerblue;*/
+    background-color: #0881A3;
+    overflow: hidden;
+}
+.menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: white;
+    /*color: cornflowerblue;*/
+    color: #0881A3;
+}
+
+#akt {
+    background-color: white;
+    /*color: cornflowerblue;*/
+    color: #0881A3;
+}
+
+/* =================================== FŐMENÜ ================================== */
+
+main {
+    /*background-color: rgba(26,26,29,.8);*/
+    /*color: white;*/
+    padding: 1rem;
+}
+
+/*aside {padding-right: 1rem;}*/
+aside h1, aside p {padding-left: .5rem;}
+
+aside a, section a, article a {
+    text-decoration: none;
+    color: orange;
+}
+
+/* =================================== ALMENÜ ================================== */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: #002379;
+    display: block;
+    text-decoration: none;
+    padding: .5rem;
+    font-size: 100%;
+}
+
+nav a:hover {color: orangered;}
+
+hr {margin: 0;}
+
+#aktiv {
+    background-color: orangered;
+    color: white;
+}
+
+/* =================================== ALMENÜ ================================== */
+
+section {padding: 0 1rem;} /*ezt az aloldalak miatt tettem bele*/
+section h1 {color: orangered;}
+
+#t {
+    list-style-type: circle;
+    /*padding: 0;*/
+    border-bottom: 1px dotted;
+    font-variant:small-caps;
+}
+
+section a:hover {text-decoration: underline;}
+
+h3 {border-bottom: 1px solid;}
+#kezdolap h3, article h3 {border-bottom: none;}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    border-top: 1px solid #0881A3;
+    padding: 1rem;
+    /*color: rgb(239, 62, 54);*/
+    color: orangered;
+}
+footer img {
+    display: block;
+    width: 7rem;
+    margin: auto;
+}
+
+footer p {
+    text-align:center;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: orange;
+}
+
+footer a:hover {
+    background-color: orange;
+    color: white;
+    transition: .5s;
+}
+
+#zaro {
+    color: rgb(239, 62, 54);
+    font-weight: bold;
+}
+
+@media(min-width:1081px){
+    /*body {
+        width: 80%;
+        margin: auto;
+    }*/
+    header {
+        padding: 0 10%;
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    header a {
+        padding: 2rem 0;
+    }
+    header img {
+        display: block;
+        border: 1px solid black;
+        border-radius: 50%;
+        max-width: 50%;
+        height: auto;
+        margin: auto;
+        box-shadow: 5px 5px lightblue;
+    }
+    header h1 {
+        text-align: center;
+    }
+
+    .menu {
+        padding-left: 10%;
+    }
+    .menu a {
+        border-left: 1px solid white;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        padding: 0 10%; 
+    }
+
+    p, section li {text-align: justify;}
+}
