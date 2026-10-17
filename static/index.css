@@ -64,96 +64,39 @@ button a:hover {
         padding: 1rem 2rem;
     }
     #bev {
-        background-image: url("../rendszer/img/laptop-5673901_1920.jpg");
-        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:cover;
-    }
-    #rendszer {
-        background-image: url("../rendszer/img/circuit.jpg");
-        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:cover;
-    }
-    #net {
-        background-image: url("../net/img/globe-8704013_1280.jpg");
-        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:cover;
-    }
-    #dev {
-        background-image: url("../dev/img/programming-languages_label.png");
-        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:cover;
-    }
-    #iroda {
-        background-image: url("../iroda/iroda-169.png");
+        background-image: url("../img/laptop-5673901_1920.jpg");
         background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
     }
     #media {
-        background-image: url("../media/img/interior-design-8781907_1280.png");
+        background-image: url("../img/interior-design-8781907_1280.png");
         background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
     }
-    #graphics {
-        background-image: url("../graphics/img/ai-generated-8166706_1920-169.png");
+    
+    #film {
+        background-image: url("../img/sony-1455035_1280.jpg");
         background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
     }
-    #alcimjatek {
-        background-image: url("../graphics/img/game-controller-5619105_1280.jpg");
-        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:cover;
-    }
+    
     #alcimhardver {
-        background-image: url("../media/interior-design-8781907_1280.png");
+        background-image: url("../img/interior-design-8781907_1280.png");
         background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
     }
-    #ai {
-        background-image: url("../dev/img/machinelearning.png");
-        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:cover;
-    }
-    #haromde {
-        background-image: url("../graphics/img/laserwallp.jpg");
-        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:cover;
-    }
-    #swfejl {
-        background-image: url("../dev/img/ai-generated-8775235_1280.png");
-        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:cover;
-    }
-    #webprog {
-        background-image: url("../webdev/img/blogging-7308532_1280-169.png");
-        background-attachment: fixed;/*CSAK ENNYIT ÍRTAM HOZZÁ!!!*/
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:cover;
-    }
+    
+    
+    
+    
 
     h1 {
         padding: 3rem 0;
